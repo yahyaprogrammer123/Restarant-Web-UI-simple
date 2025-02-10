@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h2>finding html</h2>
+        <p>hello</p>
+        <p>this  example</p>
+        <p id="demo"></p>
+        <script>
+            var x=document.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML='the text in first pragraph (index 0) is:'+
+            x[1].innerHTML;
+        </script>
+    </body>
+</html>
